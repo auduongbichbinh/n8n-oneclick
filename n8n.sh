@@ -101,3 +101,5 @@ docker-compose up -d
 echo "N8n đã được cài đặt và cấu hình với SSL sử dụng Caddy. Truy cập https://${DOMAIN} để sử dụng."
 echo "Các file cấu hình và dữ liệu được lưu trong $N8N_DIR"
 echo "Script tạo bởi nghiait: https://www.nghiait.com"
+echo "Lưu ý phải mở port 80 để lấy SSL sau này dùng để xác thực"
+echo "Lưu ý phải mở port 443 proxy về 5678 để chạy dịch vụ"
